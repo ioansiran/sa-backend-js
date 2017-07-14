@@ -2,7 +2,8 @@ var mongoose = require('mongoose')
 var dataSchema = new mongoose.Schema({
         date: String,
         lat: String,
-        long: String
+        long: String,
+        batPercentage: String
     })
 var entrySchema = new mongoose.Schema({
         username: { type : String , unique : true, required : true, dropDups: true },
