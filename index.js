@@ -1,8 +1,9 @@
 var express = require('express')
 var bodyParser = require('body-parser')
 var routes = require('./routes/routes.js');
-var app = express()
 var mongoose = require('mongoose')
+
+var app = express()
 app.use(bodyParser())
 mongoose.connect('mongodb://localhost/test');
 
