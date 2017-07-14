@@ -5,7 +5,7 @@
 ```javascript
 npm install
 node index.js
-```
+
 
 ####### If you are missing a dependency, FUCK YOU... Use your head
 ####### Thank you for using my code. Bye
